@@ -10,4 +10,5 @@ set(sources
     src/main.cpp
     src/tools.cpp)
 
+include_directories(/usr/include/eigen3)
 add_executable(ExtendedKF ${sources})
